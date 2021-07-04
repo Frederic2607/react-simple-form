@@ -1,0 +1,88 @@
+$bgc-info: #fcf9f9;
+$white: #ffff;
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .container {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    span {
+      font-size: 12px;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 280px;
+      height: 40px;
+      border-radius: 5px;
+      box-sizing: border-box;
+      border: solid 1px #d3d3d3;
+      background-color: $bgc-info;
+      padding-left: 10px;
+      margin-bottom: 30px;
+    }
+
+    .submit-btn {
+      width: 280px;
+      height: 40px;
+      background-color: #5c47d3;
+      color: $white;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      box-sizing: border-box;
+      margin-top: 15px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .edit-btn {
+      width: 280px;
+      height: 40px;
+      background-color: #5c47d3;
+      color: $white;
+      font-weight: bold;
+      border-radius: 5px;
+      border: none;
+      box-sizing: border-box;
+      margin-top: 15px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .bgc-result {
+      display: flex;
+      flex-direction: column;
+      padding-left: 30px;
+      width: 310px;
+      height: 165px;
+      background-color: $bgc-info;
+      border-radius: 5px;
+    }
+  }
+  .footer {
+    span {
+      font-weight: bold;
+    }
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
